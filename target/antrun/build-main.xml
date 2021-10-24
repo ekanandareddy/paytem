@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="C:\Users\VJNJ\OneDrive\Desktop\devops\practice\new project\recharge\recharge\target/recharge.zip">
+    <zipfileset includes="lib/**" dir="C:\Users\VJNJ\OneDrive\Desktop\devops\practice\new project\recharge\recharge\target"/>
+    <zipfileset includes="recharge.jar" dir="C:\Users\VJNJ\OneDrive\Desktop\devops\practice\new project\recharge\recharge\target"/>
+    <zipfileset includes="readme.txt" dir="C:\Users\VJNJ\OneDrive\Desktop\devops\practice\new project\recharge\recharge"/>
+  </zip>
+</target>
+</project>
